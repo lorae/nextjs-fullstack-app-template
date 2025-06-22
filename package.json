@@ -23,5 +23,10 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
     "@eslint/eslintrc": "^3"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "yarn": ">=1.22.22",
+    "npm": "please-use-yarn"
   }
 }
