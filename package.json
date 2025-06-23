@@ -31,6 +31,7 @@
     "@storybook/builder-webpack5": "^9.0.12",
     "@storybook/nextjs": "9",
     "@storybook/react": "9",
+    "@storybook/types": "^9.0.0-alpha.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
