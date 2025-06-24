@@ -1,18 +1,17 @@
 import type { Meta, StoryObj } from '@storybook/nextjs';
-import BaseTemplate from './BaseTemplate';
-import { mockBaseTemplateProps } from './BaseTemplate.mocks';
+import SidebarLayout, { mockSidebarLayoutProps } from './SidebarLayout';
 
-const meta: Meta<typeof BaseTemplate> = {
-  title: 'sidebar/BaseTemplate',
-  component: BaseTemplate,
+const meta: Meta<typeof SidebarLayout> = {
+  title: 'sidebar/SidebarLayout',
+  component: SidebarLayout,
   argTypes: {},
 };
 export default meta;
 
-type Story = StoryObj<typeof BaseTemplate>;
+type Story = StoryObj<typeof SidebarLayout>;
 
 export const Base: Story = {
   args: {
-    ...mockBaseTemplateProps.base,
+    ...mockSidebarLayoutProps.base,
   },
 };
