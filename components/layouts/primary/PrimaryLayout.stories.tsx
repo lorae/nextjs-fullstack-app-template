@@ -1,3 +1,4 @@
+import type { Meta, StoryObj } from '@storybook/nextjs';
 import PrimaryLayout, { IPrimaryLayout } from './PrimaryLayout';
 import { mockPrimaryLayoutProps } from './PrimaryLayout.mocks';
 
@@ -6,10 +7,10 @@ export default {
   component: PrimaryLayout,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {},
-} as ComponentMeta<typeof PrimaryLayout>;
+} as Meta<typeof PrimaryLayout>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof PrimaryLayout> = (args) => (
+const Template: StoryObj<typeof PrimaryLayout> = (args) => (
   <PrimaryLayout {...args} />
 );
 
