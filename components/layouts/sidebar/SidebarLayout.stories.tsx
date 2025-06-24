@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/nextjs';
-import SidebarLayout, { mockSidebarLayoutProps } from './SidebarLayout';
+import SidebarLayout from './SidebarLayout';
+import { mockSidebarLayoutProps } from './SidebarLayout.mocks';
 
 const meta: Meta<typeof SidebarLayout> = {
   title: 'sidebar/SidebarLayout',
