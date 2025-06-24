@@ -50,8 +50,8 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": ">=22.0.0",
-    "yarn": ">=1.22.22",
+    "node": ">=20.0.0",
+    "yarn": ">=1.22.0",
     "npm": "please-use-yarn"
   },
   "resolutions": {
