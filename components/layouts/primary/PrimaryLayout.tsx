@@ -1,9 +1,8 @@
 import Head from 'next/head';
-import { ReactNode } from 'react'; // ✅ Add this import
-import styles from './PrimaryLayout.module.css';
+import { ReactNode } from 'react';
 
 export interface IPrimaryLayout {
-  children?: ReactNode; // ✅ Add children here
+  children?: ReactNode;
 }
 
 const PrimaryLayout: React.FC<IPrimaryLayout> = ({ children }) => {
@@ -12,7 +11,7 @@ const PrimaryLayout: React.FC<IPrimaryLayout> = ({ children }) => {
       <Head>
         <title>Primary Layout Example</title>
       </Head>
-      <main className={styles.main}>{children}</main>
+      <main className="flex h-[calc(100vh-64px)] bg-red-500">{children}</main>
     </>
   );
 };
